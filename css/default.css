@@ -9,7 +9,7 @@ body {
 	padding: 0 !important;
 }
 .navbar {		
-	background: #fff;
+	background: rgb(255, 255, 255);
 	padding-left: 16px;
 	padding-right: 16px;
 	border-bottom: 1px solid #d6d6d6;
@@ -127,6 +127,17 @@ body {
 	}
 }
 
+/* Snapping Scrolling Stuff */
+.scroll-container {
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	height: 100vh;
+	scroll-snap-align: center;
+}
 
 /*Hero Stuff*/
 .hero {
@@ -142,6 +153,9 @@ body {
 		rgba(0, 0, 0, 0.5),
 		rgba(0, 0, 0, 0.5)),
 		url('../images/flowers-hero.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	/* Flexbox Stuff*/
 	display: flex;
@@ -173,4 +187,28 @@ body {
 
 	border: 3px solid white;
 	border-radius: 20px;
+}
+
+.three .stuff,
+.stuff {
+	/*text colors*/
+	color: rgb(0, 0, 0);
+
+	/* Sizing */
+	width: 100vw;
+	height: 100vh;
+
+	/*background*/
+	
+	/* Flexbox Stuff*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+.three .stuff {
+	background-color: black;
+	color: white;
 }
