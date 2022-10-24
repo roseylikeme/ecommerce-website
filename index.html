@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce Website</title>
+    <!--MY  Stuff-->
     <link rel="stylesheet" href="css/default.css">
     <!--Font family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,69 +13,29 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap"
       rel="stylesheet"/>
-
     <!--More for bootstrap-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda+One">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--My Javascripts-->
     <script src="scripts/myScript.js"></script>
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-xl navbar-light bg-light">
-            <a href="#" class="navbar-brand"><i class="fa fa-cube"></i>The <b>Rose Project</b></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collection of nav links, forms, and other content for toggling -->
-            <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
-                <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">About</a>
-                    <!--Dropdown
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Web Design</a>
-                            <a href="#" class="dropdown-item">Web Development</a>
-                            <a href="#" class="dropdown-item">Graphic Design</a>
-                            <a href="#" class="dropdown-item">Digital Marketing</a>
-                        </div>
-                    </div>
-                    -->
-                    <a href="#" class="nav-item nav-link">Blog</a>
-                    <a href="#" class="nav-item nav-link">Contact</a>
-                </div>
-                <form class="navbar-form form-inline">
-                    <div class="input-group search-box">								
-                        <input type="text" id="search" class="form-control" placeholder="Search by Name">
-                        <span class="input-group-addon"><i class="material-icons">&#xE8B6;</i></span>
-                    </div>
-                </form>
-                <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link notifications"><i class="fa fa-bell-o"></i><span class="badge"><!--Numb--></span></a>
-                    <a href="#" class="nav-item nav-link messages"><i class="fa fa-envelope-o"></i><span class="badge"><!--Number--></span></a>
-                    <div class="nav-item dropdown">
-                        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><img src="images/rose.gif" class="avatar" alt="Avatar"> Rose Gabun <b class="caret"></b></a>
-                        <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item"><i class="fa fa-user-o"></i> Profile</a>
-                            <a href="#" class="dropdown-item"><i class="fa fa-calendar-o"></i> Calendar</a>
-                            <a href="#" class="dropdown-item"><i class="fa fa-sliders"></i> Settings</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a>
-                        </div>
-                    </div>
-                </div>
+        <nav class="navbar">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CART</a></li>
+                    <li><a href="">INSPO</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
             </div>
         </nav>
     </header>
     <main class="scroll-container">
-        <section class="one">
+
+        <section class="one" id="one">
             <div class="hero">
                 <div class="hero-inner">
                     <h1 class="hero-heading">The Rose Project</h1>
@@ -86,7 +47,7 @@
         </section>
 
       
-        <section class="two">
+        <section class="two" id="two">
             <div class="stuff">
                 <div class="who-am-i">
                     <h1 class="heading intro">Hi there. I'm Rose.</h1>
@@ -100,7 +61,7 @@
             </div>
         </section>
 
-        <section class="three">
+        <section class="three" id="three">
             <div class="stuff">
                 <div class="hm">
                     <h2>Passions</h2> <!--This is not showing? Why-->
