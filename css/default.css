@@ -132,6 +132,11 @@ section {
 	border-top: 1px solid rgb(255, 255, 255);
 }
 
+ul.override {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
 	display: flex;
 	align-items: center;
