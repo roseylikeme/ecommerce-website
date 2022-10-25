@@ -1,45 +1,30 @@
 html,
 body {
-	margin: 0;
-	padding: 0;
-	background: #eeeeee;
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)),
+	url("../images/flowers-hero.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Navbar Stuff */
+button.btn.btn-outline-success {
+	border-radius: 20px;
+	padding: 0.4rem 1.4rem;
+	color: white;
+    border-color: white;
 }
 
-/* Nav Bar*/
-.header{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-	top: 0; /* STAY ON TOP BITCH*/
+button.navbar-toggler,
+button.navbar-toggler:focus {
+	display: flex;
+    border: none;
+    font-size: 2rem;
+	box-shadow:none;
 }
 
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-	top: 0; /* STAY ON TOP BITCH*/
-}
-nav img{
-    width: 150 px;
-}
-.nav-links{
-    flex: 1;
-    text-align: right;
-	top: 0; /* STAY ON TOP BITCH*/
-}
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position:relative;
-}
-.nav-links ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 13px;
-}
 /* Snapping Scrolling Stuff */
 .scroll-container {
 	height: 100vh;
@@ -66,13 +51,10 @@ section {
 	height: 100vh;
 
 	/*background*/
-	background-image: linear-gradient(
+	/* background-image: linear-gradient(
 		rgba(0, 0, 0, 0.5),
 		rgba(0, 0, 0, 0.5)),
-		url('../images/flowers-hero.jpeg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+		url('../images/flowers-hero.jpeg'); */
 
 	/* Flexbox Stuff*/
 	display: flex;
@@ -115,6 +97,10 @@ section {
 	border:dotted;
 }
 
+.stuff {
+	background-color: white;
+}
+
 .three,
 .stuff {
 	/*text colors*/
@@ -144,4 +130,10 @@ section {
 	margin-bottom: 1rem;
 	border: 0;
 	border-top: 1px solid rgb(255, 255, 255);
+}
+
+ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

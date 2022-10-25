@@ -7,6 +7,7 @@
     <title>E-Commerce Website</title>
     <!--MY  Stuff-->
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--Font family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,22 +18,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!--My Javascripts-->
-    <script src="scripts/myScript.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CART</a></li>
-                    <li><a href="">INSPO</a></li>
-                    <li><a href="">CONTACT</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
                 </ul>
+                <form class="d-flex">
+                  <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                  <!-- <button class="btn btn-outline-success" type="submit">Login</button> -->
+                </form>
+              </div>
             </div>
-        </nav>
+          </nav>
     </header>
+
     <main class="scroll-container">
 
         <section class="one" id="one">
@@ -69,15 +93,28 @@
                     <p>Multipassionate is a word I would describe myself.<br>
                         In a world full of specialists who hone on one skill,<br>
                         I find many subjects, topics, and fields of work interesting<br>
-                        and want to exercise every possible skill out there.</p>
+                        and want to exercise every possible skill out there.
+                    </p>
+                <div>
+                    <ul>
+                        <li>What</li>
+                        <li>What</li>
+                        <li>What</li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </section>
         </div>
     </main>
-
+    
     <footer>
         <!--Enter footer stuff here-->
     </footer>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
