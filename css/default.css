@@ -132,6 +132,10 @@ section {
 	border-top: 1px solid rgb(255, 255, 255);
 }
 
+section.p-5 {
+	background: none;
+}
+
 ul.override {
     list-style-position: inside;
     padding-left: 0;
@@ -141,4 +145,19 @@ ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/*registration*/
+element.style {
+    /* background-color: #eee; */
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-image: url(../images/flowers-hero.jpeg) !important;
+}
+
+.row-override { /*brings card down center*/
+	margin-top: 125px;
+}
+
+.form-check.flex.justify-content-center.mb-5 { /*changes the pos of i agree all statemtns.*/
+    margin-left: 50px;
 }
