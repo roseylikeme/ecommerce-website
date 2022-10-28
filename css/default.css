@@ -165,3 +165,16 @@ i.fa.fa-shopping-cart {
     color: white;
 	margin-left: 15px;
 }
+
+/* Checkout Override */
+.container {
+	max-width: 960px;
+	background-color: white;
+  }
+  
+  .lh-condensed { line-height: 1.25; }
+
+.container.checkout {
+	border-radius: 30px;
+	margin-top: 15px;
+}
