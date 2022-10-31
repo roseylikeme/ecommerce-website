@@ -185,3 +185,8 @@ i.fa.fa-shopping-cart {
 	border-radius: 30px;
 	margin-top: 15px;
 }
+
+/* Fix user-login */
+.container-full {
+	height: 80vh;
+}
