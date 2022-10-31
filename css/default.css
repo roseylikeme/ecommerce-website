@@ -130,8 +130,15 @@ section.p-5 {
 
 ul.override {
     list-style-position: inside;
-    padding-left: 0;
+	padding-left: 0px;
+	display: flex;
 }
+
+ul.override li {
+	padding-left: 20px;
+}
+
+
 
 ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
 	display: flex;
