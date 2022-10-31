@@ -12,7 +12,7 @@ in hopes of getting paid for it, well graded for it.
 </p>
 
 <p>
-    <img src="images/screenshots/ss1-interesting.png" alt="Size Limit CLI" width="738">
+    <img src="images/screenshots/ss-interesting.png" alt="Size Limit CLI" width="738">
     Above is an interesting line of code that I wrote that allows for scroll snapping.
     If you want to see more of the code, check inside my css file and how i split my pages
     into sections.
