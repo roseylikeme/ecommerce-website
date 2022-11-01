@@ -190,3 +190,9 @@ i.fa.fa-shopping-cart {
 .container-full {
 	height: 80vh;
 }
+
+.list-stuff {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
